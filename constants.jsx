@@ -1,7 +1,4 @@
-
-import { Product } from './types';
-
-export const MOCK_PRODUCT: Product = {
+export const MOCK_PRODUCT = {
   id: 'kbd-lumina-01',
   name: 'Lumina X1 Ultra-Slim Mechanical Keyboard',
   brand: 'Lumina Tech',
