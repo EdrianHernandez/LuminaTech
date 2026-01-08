@@ -1,13 +1,7 @@
-
 import React, { useState } from 'react';
 import { Star, ShieldCheck, Truck, RefreshCw, Minus, Plus } from 'lucide-react';
-import { Product } from '../types';
 
-interface DetailsProps {
-  product: Product;
-}
-
-const ProductDetails: React.FC<DetailsProps> = ({ product }) => {
+const ProductDetails = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
   const [selectedSwitch, setSelectedSwitch] = useState('Brown');
 
