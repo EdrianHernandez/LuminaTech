@@ -15,7 +15,7 @@ const ProductGallery = ({ images }) => {
       </div>
 
       {/* Thumbnails */}
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-0">
         {images.map((image) => (
           <button
             key={image.id}

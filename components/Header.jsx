@@ -12,7 +12,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 opacity-0">
             <a href="#" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Keyboards</a>
             <a href="#" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Keycaps</a>
             <a href="#" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Switches</a>
