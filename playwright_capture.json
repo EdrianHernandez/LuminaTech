@@ -1,0 +1,38 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "file_path": "components/Header.jsx",
+        "image_anchor": "LuminaTech_bug-1.png",
+        "text_anchors": [
+            "The navigation menu items are missing from the top of the header.",
+            "The desktop navigation menu is rendered but appears completely transparent, making all navigation items invisible to the user.",
+            "Users cannot navigate to different product sections like Keyboards, Keycaps, Switches, or Custom Build because the navigation menu is not visible on the screen."
+        ],
+        "positive_node": "<nav className=\"hidden md:flex space-x-8 opacity-0\">",
+        "playwright_selector": "header nav"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "file_path": "components/ProductGallery.jsx",
+        "image_anchor": "LuminaTech_bug-2.png",
+        "text_anchors": [
+            "The product thumbnails look squished together with no spacing between them.",
+            "The thumbnail grid has zero spacing between images, causing them to display directly adjacent to each other without any gaps.",
+            "It is difficult to distinguish individual thumbnail images and they are hard to click on because they are rendered touching each other without separation."
+        ],
+        "positive_node": "<div className=\"grid grid-cols-4 gap-0\">",
+        "playwright_selector": "div.grid.grid-cols-4"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "file_path": "components/ProductDetails.jsx",
+        "image_anchor": "LuminaTech_bug-3.png",
+        "text_anchors": [
+            "The star ratings look strange and appear to be stacked on top of each other.",
+            "The rating stars are overlapping due to negative spacing applied to the container, making them appear layered on top of each other instead of side-by-side.",
+            "The star rating is difficult to read because the stars are rendered on top of each other instead of displayed horizontally, making the rating unclear."
+        ],
+        "positive_node": "<div className=\"flex items-center text-amber-400 -space-x-2\">",
+        "playwright_selector": "div.text-amber-400"
+    }
+]

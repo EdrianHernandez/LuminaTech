@@ -1,0 +1,23 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-1.png",
+        "file_path": "components/Header.jsx",
+        "text_anchor": "The navigation menu items are missing from the top of the header.",
+        "positive_node": "<nav className=\"hidden md:flex space-x-8 opacity-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-2.png",
+        "file_path": "components/ProductGallery.jsx",
+        "text_anchor": "The product thumbnails look squished together with no spacing between them.",
+        "positive_node": "<div className=\"grid grid-cols-4 gap-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-3.png",
+        "file_path": "components/ProductDetails.jsx",
+        "text_anchor": "The star ratings look strange and appear to be stacked on top of each other.",
+        "positive_node": "<div className=\"flex items-center text-amber-400 -space-x-2\">"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-1.png",
+        "file_path": "components/Header.jsx",
+        "text_anchor": "Users cannot navigate to different product sections like Keyboards, Keycaps, Switches, or Custom Build because the navigation menu is not visible on the screen.",
+        "positive_node": "<nav className=\"hidden md:flex space-x-8 opacity-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-2.png",
+        "file_path": "components/ProductGallery.jsx",
+        "text_anchor": "It is difficult to distinguish individual thumbnail images and they are hard to click on because they are rendered touching each other without separation.",
+        "positive_node": "<div className=\"grid grid-cols-4 gap-0\">"
+    },
+    {
+        "github_repo": "https://github.com/EdrianHernandez/LuminaTech.git",
+        "image_anchor": "LuminaTech_bug-3.png",
+        "file_path": "components/ProductDetails.jsx",
+        "text_anchor": "The star rating is difficult to read because the stars are rendered on top of each other instead of displayed horizontally, making the rating unclear.",
+        "positive_node": "<div className=\"flex items-center text-amber-400 -space-x-2\">"
+    }
+]
